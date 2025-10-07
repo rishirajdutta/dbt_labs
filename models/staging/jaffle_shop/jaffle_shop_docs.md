@@ -1,9 +1,13 @@
 {% docs order_status %}
+    
+One of the following values: 
 
-shipped         | Order has been placed and sent for delivery but not yet received by customer. | 
-placed          | Order has been placed by the customer.                                        |
-return_pending  | A return request of the order has been placed by the customer.                |
-returned        | The order has been returned by the customer.                                  |
-completed       | The has been delivered and received by the customer.                          |
+| status         | definition                                       |
+|----------------|--------------------------------------------------|
+| placed         | Order placed, not yet shipped                    |
+| shipped        | Order has been shipped, not yet been delivered   |
+| completed      | Order has been received by customers             |
+| return pending | Customer indicated they want to return this item |
+| returned       | Item has been returned                           |
 
 {% enddocs %}
