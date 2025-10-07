@@ -14,7 +14,7 @@ sources:
 
     tables:
       - name: customers 
-        freshness: null
+        freshness: null 
       - name: orders 
 
 
