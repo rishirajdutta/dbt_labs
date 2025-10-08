@@ -56,8 +56,8 @@ final as
 select 
     order_id,
     customer_id,
-    last_name,
-    first_name,
+    last_name as surname,
+    first_name as givenname,
     customer_first_order_date as first_order_date,
     customer_order_count as order_count,
     customer_total_lifetime_value as total_lifetime_value,
