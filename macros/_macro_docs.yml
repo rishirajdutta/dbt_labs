@@ -1,0 +1,10 @@
+macros:
+  - name: cents_to_dollars
+    description: This macro converts cents to dollars 
+    arguments:
+      - name: column_name
+        type: string
+        description: Input the column name as a string using double quotes 
+      - name: decimals
+        type: integer
+        description: Rounds the output to a given decimals place, defaults to 2
