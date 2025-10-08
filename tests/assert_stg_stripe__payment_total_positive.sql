@@ -7,7 +7,7 @@ with asserted_payments as (
 
 select 
 order_id
-, sum(amount) as order_total 
+, sum(payment_amount) as order_total 
 from asserted_payments 
 group by order_id 
-having sum(amount) < 0
+having sum(payment_amount) < 0

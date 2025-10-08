@@ -14,7 +14,7 @@ models:
         description: The date when the order was placed.
         data_tests:
           - not_null
-      - name: amount
+      - name: payment_amount
         description: The total amount paid for the order, summing successful payments.
         data_tests:
           - not_null
